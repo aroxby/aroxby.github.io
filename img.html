@@ -1,0 +1,11 @@
+<html>
+<body>
+<img id="img" />
+</body>
+<script>
+var url = new URL(window.location.href);
+var src = url.searchParams.get("src");
+var img = document.getElementById("img");
+img.src = src;
+</script>
+</html>
